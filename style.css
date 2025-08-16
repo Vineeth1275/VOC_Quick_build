@@ -153,11 +153,11 @@ hr {
   border: none;
   border-radius: 10px;
   font-size: 1.2rem;
-  margin: 7vh 3vw;
+  margin: 4vh 1.8vw;
   padding: 1em 2em;
 }
 .ingredients{
-  background: url("https://imgs.search.brave.com/AmnWEheHBKOKqi8yB4WkJC6qVy4_pfEaUAC163YuxgA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZhLzkw/LzBjLzZhOTAwYzU4/MjQ3M2Y0MTlhYWY5/NzFkYzFhNWZlMmYx/LmpwZw");
+  background: url("https://imgs.search.brave.com/KJi0MN27TeHb0HzYYnmYzwntwzb-SAaOAlV0eYs9810/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9ob2xv/LWdlb21ldHJpYy1n/bGFzcy1zaGFwZXMt/Z2xvd2luZy1uZW9u/LWxpZ2h0LWFic3Ry/YWN0LWhvbG9ncmFw/aGljLWJhY2tncm91/bmQtZmx5aW5nLWZs/dWlkLXBpbmstZ2xh/c3Ntb3JwaGlzbS1i/bHVlLXBhc3RlbC0z/MDcwOTQyMDIuanBn");
   object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,6 +175,7 @@ details {
   color: rgb(0, 0, 0);
   font-weight: 900;
   font-size: 1.2rem;
+
 }
 
 details ul li {
@@ -306,6 +307,6 @@ font-weight: 700;
 }
 .steps:hover{
 box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.501);
-transform: scale(1.04);
-transition: all .3s ease;
+transform: scale(1.02);
+transition: all .3s ease;cursor: pointer;
 }
