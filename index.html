@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Recipe Card with Animations</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="receipe-card">
+        <div class="receipe-header">
+          <header>
+            <h1>Paneer Biryani</h1>
+            <div class="details">
+              <div class="info">
+                <i class="fas fa-clock"></i>
+                <span>60 minutes</span>
+              </div>
+              <div class="info">
+                <i class="fas fa-users"></i>
+                <span>4 servings</span>
+              </div>
+              <div class="info">
+                <i class="fas fa-star"></i>
+                <span>Difficulty: Medium</span>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="receipe-image">
+          <img
+            src="images/Butter Paneer Biryani Listing final .jpg"
+            alt="ingredient-img"
+          />
+        </div>
+        <hr />
+        <div class="controls">
+          <button class="btn btn-1" id="startCooking">
+            <i class="fas fa-play"></i>
+            Start Cooking
+          </button>
+          <button class="btn btn-2" id="nextStep">
+            <i class="fas fa-forward"></i>
+            Next Step
+          </button>
+          <button class="btn btn-3" id="resetCooking">
+            <i class="fas fa-redo"></i>
+            Reset
+          </button>
+        </div>
+        <div class="box ingredients">
+          <details>
+            <summary>
+              <div class="left">
+                <i class="fa-solid fa-list-check"></i>
+
+                Ingredients
+              </div>
+              <i class="fa-solid fa-caret-down"></i>
+            </summary>
+            <ul>
+              <li>
+                2 cups basmati rice <span><i>(rinsed and soaked 30 minutes)</i></span>
+              </li>
+              <li>250g paneer, cubed</li>
+              <li>2 medium onions, thinly sliced</li>
+              <li>2 tomatoes, chopped</li>
+              <li>1/2 cup plain yogurt <span><i>(curd)</i></span></li>
+              <li>1 tablespoon ginger-garlic paste</li>
+              <li>2 green chilies, slit</li>
+              <li>
+                Whole spices
+                <span><i>
+                  (1 bay leaf, 1-inch cinnamon, 4 cloves, 4 green
+                  cardamoms)</i></span
+                >
+              </li>
+              <li>
+                Ground spices
+                <span
+                  ><i>(1 tsp biryani masala, 1/2 tsp turmeric, 1 tsp red chili
+                  powder)</i></span
+                >
+              </li>
+              <li>Fresh herbs</li>
+              <li>3 tablespoons ghee or oil</li>
+              <li>3 tablespoons ghee or oil</li>
+              <li>Salt to taste</li>
+              <li id="last-item">3.5 cups water</li>
+            </ul>
+          </details>
+        </div>
+        <div class="box instructions">
+          <details>
+            <summary>
+              <div class="left">
+                <i class="fa-solid fa-utensils"></i> Instructions
+              </div>
+              <i class="fa-solid fa-caret-down"></i>
+            </summary>
+            <div class="instructions-steps">
+              <div class="steps step-1">
+                  <h3><span>1.</span>Parboil the rice</h3>
+                  <p>
+                    Rinse and soak basmati rice for 30 minutes. Boil in salted
+                    water with whole spices until 70% cooked. Drain and set
+                    aside.
+                  </p>
+              </div>
+              <div class="steps step-2">
+                <h3><span>2.</span>Prepare the paneer</h3>
+                <p>
+                  Lightly fry paneer cubes in 1 tbsp ghee/oil until golden at
+                  the edges. Remove and set aside.
+                </p>
+              </div>
+              <div class="steps step-3">
+                <h3><span>3.</span>Make the masala</h3>
+                <p>
+                  Heat remaining ghee/oil. Saute onions until golden brown. Add
+                  ginger-garlic paste and green chilies; cook until raw smell
+                  leaves. Add tomatoes and ground spices; cook to a thick
+                  masala.
+                </p>
+              </div>
+              <div class="steps step-4">
+                <h3><span> 4.</span>Finish the gravy</h3>
+                <p>
+                  Lower heat and whisk in yogurt. Add fried paneer and half the
+                  chopped herbs. Simmer 2–3 minutes; adjust salt.
+                </p>
+              </div>
+              <div class="steps step-5">
+                <h3><span>5.</span>Layer and dum cook</h3>
+                <p>
+                  In a heavy pot, layer half the rice, then paneer masala,
+                  saffron milk (optional), and herbs. Top with remaining rice.
+                  Cover tightly and cook on low heat 15–20 minutes.
+                </p>
+              </div>
+              <div class="steps step-6">
+                <h3><span>6.</span>Rest and serve</h3>
+                <p>
+                  Let biryani rest 10 minutes. Fluff gently, garnish with
+                  remaining herbs, and serve hot with raita.
+                </p>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <div class="receipe-foot">
+          <div class="print-btn">
+            <i class="fa-solid fa-print"></i>
+            <button>Print receipe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
